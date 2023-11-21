@@ -1,0 +1,68 @@
+
+React is like a wrapper for html. It displays html to users and changes html when the user does something.
+
+Create functions that return JSX which tells React what to display.
+
+React components:
+    - functions that return JSX
+    - many components within a react App
+
+App.js:
+    - coordinate components within the app
+
+How does react start up:
+    - JS files bundled into one file (App bundle)
+    - User makes request to server and gets an html file + the JS bundle
+    - Browser executes code
+    - index.js file executes first and grabs the root element
+    - render within that root element and get the App component
+
+Use state functions:
+    - function that works with React's state system
+    - state is like a variable in React
+    - state is used to store data that changes over time
+    - whenever state changes, React automatically updates content on the screen
+
+Start up App:
+    - go into project folder
+    - run 'npm start' in terminal (start dev environment)
+    - open browser and go to localhost:3000
+    - press 'control+c' in terminal to stop project
+
+React app dev server:
+    - Babel - turns JSX into normal JS code
+    - Webpack - merges all files into a single file
+
+Folders/files:
+    node_modules - folder with all the dependencies required to run our project
+    package-lock.json, package.json - lists the dependencies our project needs to work correctly
+    index.js - first file that gets executed when our app runs
+    index.html - skeleton for the React app
+
+Reference JS variable or expression:
+    - in JSX wrap variable/expression in {}
+
+JSX props:
+    - props can refer to a variable using the same curly braces syntax
+    - props don't have to be defined as variables
+    - arrays - wrap with curly braces
+    - objects - wrap with curly braces (cant display with JSX but can pass as a prop)
+    - variables - wrap with curly braces
+
+HTML to JSX:
+    - names/values of attributes that you provide to elements in HTML are slightly different in JSX
+    - 1. all prop names follow camelCase
+    - 2. number attributes use curly braces
+    - 3. Boolean 'true' can be writting with just the property name. 'False' should be written with curly braces
+    - 4. the 'class' attribute is written as 'className'
+    - 5. In-line styles are provided as objects
+
+Creating a Component:
+    - 1. create new file, start with capital letter
+    - 2. make component. should be a function that returns JSX
+    - 3. Export the component at the bottom of the file
+    - 4. Import the component into another file
+    - 5. Use the component
+
+Additional Notes:
+    - https://jsx-notes.vercel.app/
