@@ -66,3 +66,28 @@ Creating a Component:
 
 Additional Notes:
     - https://jsx-notes.vercel.app/
+
+Component Heirarchy:
+    - relationaship between components
+    - parent to children
+    - children to siblings
+
+Props System:
+    - pass data from a parent to child
+    - allows a parent to configure each child differently
+    - one way flow of data, child can't push props back
+    - 25% of understanding how react works
+
+    Communicaton with props:
+        - add attributes to a JSX element
+        - react collects the attributes and puts them in an object
+        - props object shows up as the first argument to the child component function
+        - we use the props however we wish
+    
+Event system:
+    - decide on an Event to watch
+    - create a function (event handler/callback function)
+    - name the function usually using handle + 'Event Name';
+    - pass function as prop to element
+    - use valid event name
+    - pass a reference to the function, do not call it

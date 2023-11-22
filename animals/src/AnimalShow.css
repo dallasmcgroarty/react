@@ -1,0 +1,22 @@
+.animal {
+    position: relative;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px lightgray;
+    height: 250px;
+}
+
+.animal-image {
+    height: 250px;
+    width: 250px;
+}
+
+.heart {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    opacity: 0.5;
+    max-height: 250px;
+    max-width: 250px;
+}
