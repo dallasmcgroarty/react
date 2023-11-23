@@ -91,3 +91,17 @@ Event system:
     - pass function as prop to element
     - use valid event name
     - pass a reference to the function, do not call it
+
+Async / Await:
+    - tells JS to wait for the request to finish before moving on
+
+Components:
+    - siblings cannot communicate directly with each other
+    - always have to involve the parent
+
+Handling text inputs:
+    - 1. create a new piece of state
+    - 2. create an event handler to watch for onChange event
+    - 3. when the onChange event fires, get the value from the input
+    - 4. take that value from the input and use it to update your state
+    - 5. pass your state to the input as the value prop
