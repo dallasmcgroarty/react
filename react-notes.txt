@@ -105,3 +105,14 @@ Handling text inputs:
     - 3. when the onChange event fires, get the value from the input
     - 4. take that value from the input and use it to update your state
     - 5. pass your state to the input as the value prop
+
+Promise:
+    - async/await
+    - need to resolve the promise after a request
+
+Keys for lists:
+    - must use a key when using a list of elements
+    - add key to top most JSX element
+    - must be string or number
+    - should be unique for the specific list
+    - should be consistent across rerenders
