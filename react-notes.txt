@@ -116,3 +116,15 @@ Keys for lists:
     - must be string or number
     - should be unique for the specific list
     - should be consistent across rerenders
+
+State with multiple level children:
+    - find lowest common parent to define the state in
+
+Using arrays in state:
+    - do not modify the array by using push or other modifiers
+    - do not modify specific elements using index
+    - must create a new array
+    - reference: https://state-updates.vercel.app/
+
+State Cheat Sheet:
+    - https://state-updates.vercel.app/
