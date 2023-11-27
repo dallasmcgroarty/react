@@ -138,3 +138,17 @@ useEffect feature:
         1. pass in [] as second argument, only run after first render
         2. pass in ''(nothing) as second argument, runs on all rerenders
         3. pass in [variable], called after rerenders if variable is changed
+
+Context feature:
+    - alternative to props
+    - can share context through components
+    - not a replacement for props
+    - not a replacement for redux
+    - context object:
+        - provider: use to specify what data to share
+        - consumer: not used often
+    - Using context:
+        1. create the context
+        2. specify data that will be shared
+        3. consume the data in a components
+        4. usually wraps the app component
