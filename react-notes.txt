@@ -163,3 +163,8 @@ useCallback:
     - examples:
         1. pass in [] as second argument, useCallback returns the function/data from the very first render
         2. pass in [variable], useCallbakc retunrs the new function/data after rerender
+
+prop-types:
+    - JS library used to validate props that get passed into component
+    - if incorrent value passed in, a warning will appear in console
+    - used to be very popular. Typescript does almost the same thing and more
