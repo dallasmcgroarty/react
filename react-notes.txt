@@ -134,6 +134,9 @@ useEffect feature:
     - used to run code when a component is initially rendered and sometimes when rerendered
     - always called on the first render of component
     - may be called on further state changes depending on func passed in
+    - can't return numbers or strings
+    - can't use async/await (useEffect automatically returns a promise)
+    - you can return a function!
     - examples:
         1. pass in [] as second argument, only run after first render
         2. pass in ''(nothing) as second argument, runs on all rerenders
@@ -152,3 +155,11 @@ Context feature:
         2. specify data that will be shared
         3. consume the data in a components
         4. usually wraps the app component
+
+useCallback:
+    - hook to help tell react that a fucntion isnt actually changing over time
+    - fixes bugs around useEffect and other similar situations
+    - follows similar conventions as useEffect (second argument is an array)
+    - examples:
+        1. pass in [] as second argument, useCallback returns the function/data from the very first render
+        2. pass in [variable], useCallbakc retunrs the new function/data after rerender

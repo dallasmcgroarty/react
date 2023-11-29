@@ -1,12 +1,8 @@
 {
   "books": [
     {
-      "title": "teser 2345",
-      "id": 1
-    },
-    {
-      "title": "tester 4",
-      "id": 2
+      "title": "new",
+      "id": 3
     }
   ]
 }
