@@ -168,3 +168,6 @@ prop-types:
     - JS library used to validate props that get passed into component
     - if incorrent value passed in, a warning will appear in console
     - used to be very popular. Typescript does almost the same thing and more
+
+conditional rendering:
+    - react doesn't print booleans,nulls or undefined
