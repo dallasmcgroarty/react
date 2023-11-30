@@ -171,3 +171,6 @@ prop-types:
 
 conditional rendering:
     - react doesn't print booleans,nulls or undefined
+
+useRef:
+    - allows a component to get a reference to a DOM element that it creates
