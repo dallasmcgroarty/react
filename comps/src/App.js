@@ -3,8 +3,8 @@ import ButtonPage from './pages/ButtonPage';
 import AccordionPage from './pages/AccordionPage';
 import SliderPage from './pages/SliderPage';
 import ModalPage from './pages/ModalPage';
-import { useState } from 'react';
 import DropdownPage from './pages/DropdownPage';
+import TablePage from './pages/TablePage';
 import Route from './components/Route';
 
 function App() {
@@ -27,6 +27,9 @@ function App() {
                 </Route>
                 <Route path="/modal">
                     <ModalPage />
+                </Route>
+                <Route path="/table">
+                    <TablePage />
                 </Route>
             </div>
         </div>
