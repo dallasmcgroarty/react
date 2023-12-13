@@ -174,3 +174,20 @@ conditional rendering:
 
 useRef:
     - allows a component to get a reference to a DOM element that it creates
+
+Custom Hooks:
+    - contain reusable logic
+    - usually reuse built-on hooks like useState
+    - usually easiest way to extract logic into a hook, rather than making a hook first
+    
+Good method to create custom hooks:
+    - find code in a component related to a single piece of state
+    - copy paste it all into a helper function
+    - fix all the broken references
+    - Ta-da, you now have a hook
+
+useReducer:
+    - hook for managing state
+    - similar to using redux
+    - whatever you return from reducer will be the new state
+    - if nothing is returned then the state will be undefined!
