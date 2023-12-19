@@ -191,3 +191,15 @@ useReducer:
     - similar to using redux
     - whatever you return from reducer will be the new state
     - if nothing is returned then the state will be undefined!
+
+Redux:
+    - library for managing state using the same techniques as useReducer
+    - create a store to create and maintain the state
+    - React-Redux library
+    - multiple reducers each managing a different piece of state
+    - more complex state object
+
+Redux Slices:
+    - 1. define some initial state
+    - 2. combines mini-reducers into a big reducer
+    - 3. creates a set of action creator functions
