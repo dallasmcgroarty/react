@@ -225,3 +225,6 @@ React redux file/folder structure:
                 - index.js
             - App.js
             - index.js
+
+Derived State:
+    - values that we can calculate using existing state
