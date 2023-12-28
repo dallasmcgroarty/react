@@ -1,35 +1,15 @@
-import { configureStore, createSlice } from '@reduxjs/toolkit';
-
-const songsSlice = createSlice({
-    name: 'song',
-    initialState: [],
-    reducers: {
-        // 'song' + '/' + 'addSong' = 'song/addSong' // <-- action type of calling dispatch
-        addSong(state, action) {
-            // state is not the big state object in the store
-            // it is the piece of state managed  by this reducer
-            state.push(action.payload);
-        },
-
-        removeSong(state, action) {
-            return state.filter((song) => {
-                return song !== action.payload;
-            });
-
-            // const index = state.indexOf(action.payload);
-            // state.splice(index,1);
-        },
-    }
-});
+import { configureStore } from '@reduxjs/toolkit';
+import { songsReducer, addSong, removeSong } from './slices/songsSlice';
+import { moviesReducer, addMovie, removeMovie } from './slices/moviesSlice';
 
 const store = configureStore({
     reducer: {
-        songs: songsSlice.reducer
+        songs: songsReducer,
+        movies: moviesReducer
     }
 });
 
-export { store };
-export const { addSong, removeSong } = songsSlice.actions;
+export { store, addSong, removeSong, addMovie, removeMovie };
 
 //console.log(songsSlice.actions.addSong('new song'));
 

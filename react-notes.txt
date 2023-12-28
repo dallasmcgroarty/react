@@ -203,3 +203,25 @@ Redux Slices:
     - 1. define some initial state
     - 2. combines mini-reducers into a big reducer
     - 3. creates a set of action creator functions
+
+React redux file/folder structure:
+    - organize by function: we will be using this in the course
+        - src/
+            - components/
+                -
+            - store/
+                - actions/
+                - slices/
+                - index.js
+            - App.js
+            - index.js
+    
+    - organize by feature:
+        - src/
+            - movies/
+            - songs/
+            - store/
+                - action.js
+                - index.js
+            - App.js
+            - index.js
