@@ -228,3 +228,11 @@ React redux file/folder structure:
 
 Derived State:
     - values that we can calculate using existing state
+
+Application level state:
+    - state that many components will care about.
+    - best stored in Redux
+
+Component level state:
+    - state that only one component will care about
+    - best stored in a component

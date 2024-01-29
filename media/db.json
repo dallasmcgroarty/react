@@ -1,32 +1,24 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Myra"
-    },
-    {
-      "id": "8927",
-      "name": "Arnold Fritsch"
-    },
-    {
-      "id": "0f28",
-      "name": "Lynda Kassulke"
-    },
-    {
-      "id": "9738",
-      "name": "Christina Miller"
-    },
-    {
       "id": "5a84",
       "name": "Juan Osinski IV"
     },
     {
-      "id": "ca55",
-      "name": "Clifton Schiller"
-    },
-    {
       "id": "56ca",
       "name": "Justin Sawayn"
+    },
+    {
+      "id": "352b",
+      "name": "Tomas Denesik"
+    },
+    {
+      "id": "7e5c",
+      "name": "Christie Runolfsdottir"
+    },
+    {
+      "id": "c492",
+      "name": "Mark Schroeder"
     }
   ],
   "albums": [],
