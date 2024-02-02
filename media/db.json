@@ -21,6 +21,22 @@
       "name": "Mark Schroeder"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": "5a84"
+    },
+    {
+      "id": "ab6c",
+      "userId": "5a84",
+      "title": "Luxurious Rubber Mouse"
+    },
+    {
+      "id": "b7ee",
+      "userId": "5a84",
+      "title": "Oriental Fresh Salad"
+    }
+  ],
   "photos": []
 }
