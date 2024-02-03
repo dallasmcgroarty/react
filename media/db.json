@@ -13,29 +13,48 @@
       "name": "Tomas Denesik"
     },
     {
-      "id": "7e5c",
-      "name": "Christie Runolfsdottir"
+      "id": "1866",
+      "name": "Johanna Morar"
     },
     {
-      "id": "c492",
-      "name": "Mark Schroeder"
+      "id": "6714",
+      "name": "Olivia Davis"
+    },
+    {
+      "id": "6f9e",
+      "name": "Raquel Carter"
     }
   ],
   "albums": [
     {
-      "id": 10,
+      "id": "10",
       "title": "Hiking Trip",
       "userId": "5a84"
     },
     {
-      "id": "ab6c",
-      "userId": "5a84",
-      "title": "Luxurious Rubber Mouse"
+      "id": "083d",
+      "userId": "352b",
+      "title": "Gorgeous Fresh Chicken"
     },
     {
-      "id": "b7ee",
+      "id": "c6aa",
+      "userId": "352b",
+      "title": "Rustic Rubber Mouse"
+    },
+    {
+      "id": "5640",
       "userId": "5a84",
-      "title": "Oriental Fresh Salad"
+      "title": "Sleek Bronze Car"
+    },
+    {
+      "id": "9059",
+      "userId": "56ca",
+      "title": "Sleek Frozen Gloves"
+    },
+    {
+      "id": "2757",
+      "userId": "56ca",
+      "title": "Oriental Bronze Bacon"
     }
   ],
   "photos": []
