@@ -20,19 +20,26 @@ const svgMap = {
 
 function AnimalShow({ type }) {
     const [clicks, setClicks] = useState(0);
+    const [hovered, setHovered] = useState(0);
 
     const handleClick = () => {
         setClicks(clicks + 1);
     }
 
+    const handleMouseOver = (event) => {
+        event.target.style.background = 'yellow';
+        setHovered(hovered + 1);
+    }
+
     return (
-        <div className='animal' onClick={handleClick}>
+        <div className='animal' onClick={handleClick} onMouseOver={handleMouseOver}>
             <img className='animal-image' src={svgMap[type]} alt="animal" />
             <img 
                 className='heart'
                 src={heart} 
                 alt="heart"
                 style={{ width: 10 + 10 * clicks + 'px' }}
+                data-hover={hovered}
             />
         </div>
     )
